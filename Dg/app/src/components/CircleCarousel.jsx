@@ -1,18 +1,18 @@
 const CircleImage = () =>{
 
   const images=[
-    '/public/vt.svg',
-    '/public/dj.webp',
-    '/public/fg.png',
-    '/public/gt.png',
-    '/public/ht.png',
-    '/public/lr.png',
-    '/public/ps.png',
-    '/public/py.png',
-    '/public/rt.png',
-    '/public/sq.png',
-    '/public/tl.png',
-    '/public/vs.png',
+    '/vt.svg',
+    '/dj.webp',
+    '/fg.png',
+    '/gt.png',
+    '/ht.png',
+    '/lr.png',
+    '/ps.png',
+    '/py.png',
+    '/rt.png',
+    '/sq.png',
+    '/tl.png',
+    '/vs.png',
   ];
 
   return(
