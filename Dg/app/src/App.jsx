@@ -5,8 +5,13 @@ import {Routes,Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import {Swiper,SwiperSlide} from 'swiper/react';
 import 'swiper/css';
+
+
 import Footer from './components/Footer';
 import Carousel from './components/Carousel';
+import Carouselup from './components/Carouselup';
+import Carouseltxt from './components/Carouseltxt';
+
 
 import MobileApp from './pages/MobileApp';
 import Custom from './pages/Custom';
@@ -67,18 +72,19 @@ function App() {
       ))}
     </div>
 
-    {/* BidhaaLink Section */}
+      <div className='grid p-8'>
+            <p className='text-blue-600 text-center py-6 text-3xl font-semibold'>What Makes Us Stand Front</p>
+        
     <div className='grid md:grid-cols-2 gap-6 p-8 text-black'>
-      <div>
-        <p className='text-3xl font-bold mb-2'>BidhaaLink</p>
-        <h3 className='italic font-light'>
-          BidhaaLink is a trusted and easy-to-use platform that connects buyers and sellers across Tanzania. Whether you’re looking to expand your business or find quality products at affordable prices...
-        </h3>
-      </div>
-      <div className='flex justify-center items-center border-l-2'>
-        <img src='/bdl.png' alt='BidhaaLink' className='w-full max-w-sm' />
-      </div>
+   <div className='flex justify-center items-center'>
+        <Carouseltxt /> 
+        </div>
+      <div className='flex justify-center items-center '>
+        <Carouselup /> 
+        </div>
     </div>
+    </div>
+     
 
     {/* Call to Action */}
     <div className='bg-amber-600 py-8'>
